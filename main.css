@@ -248,13 +248,16 @@ main .greeting-section .right-side .local-time .time-holder .time-letter {
   text-transform: capitalize;
 }
 main .gallery-section {
+  max-width: 1000px;
+  margin: auto;
   padding-bottom: 80px;
   border-bottom: 1px solid var(--light-background-color);
 }
 main .gallery-section > img {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   object-fit: cover;
+  border-radius: 10px;
 }
 main .gallery-section .thumbnails {
   margin-top: 30px;
